@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-from B2014557_train import model
+from B2014582_train import model
 
 app = Flask(__name__)
 cors = CORS(app, resources={
